@@ -1,12 +1,14 @@
-**Что бы** загрузить файл на GitHub, создайте на гид хабназвание этого файла, скопируйте ссылку куда надо переносить:
+## Команды для работы с файломи GitHub
+Что бы перенести документ на GitHub - зайдите на git hub и нажмите кнопку добавить.
 
-(git remote add origin (Ссылка)
+Созадйте имя файла и скопируйте ссылку на которую надо будет загрузить файлы.
 
-git branch -M main
+**Пример:**
+1. *git remote add origin https://github.com/NikasNike/1.git*
+2. git branch -M main
+3. git push -u origin main)
+> main = главная ветка
 
-git push -u origin main)
+git push - передать новые изменения на GitHub
 
->main = главная ветка
-
-**Получить новые изменения по пректу от Git Hub**
-команда - *git pull*
+git pull - загрузить изменения с GitHub на Git
